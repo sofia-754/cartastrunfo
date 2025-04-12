@@ -4,7 +4,7 @@ int main(){
 
 
 
-        char estado1[90]
+        char estado1[90];
 
         char codigo1[90];
 
@@ -53,12 +53,6 @@ int main(){
         scanf(" %[^\n]", cidade1);
 
 
-
-        printf("Insira o nome da cidade: ");
-
-        scanf(" %[^\n]", cidade1);
-
-       
 
         printf("Insira o Nº Populacional: ");
 
@@ -136,7 +130,6 @@ int main(){
 
             printf("-----------------------------------\n");
 
-
             char estado2[90];
 
             char codigo2[90];
@@ -157,51 +150,54 @@ int main(){
     
             //ENTRADA DE DADOS_02:
     
-            printf("CADASTRE SUA 2º CARTA! \n");
+            printf("CADASTRE SUA 2º CARTA!\n");
     
-            printf("\n");
+
+            printf("\n---------------------------------\n");
     
     
     
-            printf("Insira o Estado: ");
+            printf("Insira o Estado2: ");
     
             scanf(" %[^\n]", estado2);
     
            
     
-            printf("Insira o Código: ");
+            printf("Insira o Código2: ");
     
             scanf(" %[^\n]", codigo2);
     
             
 
-            printf("Insira o nome da cidade: ");
+            printf("Insira o nome da cidade2: ");
     
             scanf(" %[^\n]", cidade2);
     
            
     
-            printf("Insira o Nº Populacional: ");
+            printf("Insira o Nº Populacional2: ");
     
             scanf("%f", &populacao2);
     
     
     
-            printf("Insira a Área Total da cidade: ");
+            printf("Insira a Área Total da cidade2: ");
     
             scanf( "%f", &area2);
     
     
     
-            printf("Insira o PIB referente: ");
+            printf("Insira o PIB referente2: ");
     
             scanf("%f", &pib2);
     
     
     
-            printf("Nº de Pontos Turísticos: ");
+            printf("Nº de Pontos Turísticos2: ");
     
             scanf("%d", &pontos_turisticos2);
+
+
     
     
     
